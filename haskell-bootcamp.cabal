@@ -1,0 +1,92 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.6.
+--
+-- see: https://github.com/sol/hpack
+
+name:           haskell-bootcamp
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-bootcamp#readme>
+homepage:       https://github.com/githubuser/haskell-bootcamp#readme
+bug-reports:    https://github.com/githubuser/haskell-bootcamp/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2022 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/haskell-bootcamp
+
+library
+  exposed-modules:
+      Ch01TypeBasic
+      Ch02FunctionBasic
+      Ch03ControlFlow
+      Ch04LocalScope
+      Ch05LambdaCalculus
+      Ch06RecursiveFunction
+      Ch07Polymorphism
+      Ch08HigherOrderFunction
+      Ch09AlgebraicDataType
+      Ch10TypePolymorphism
+      Ch11ConstraintAdvanced
+      Ch12Typeclass
+      Ch13Kind
+      Ch14TraitOfFunctor
+      Ch14TraitOfFunctor2
+      Ch15TraitOfApplicative
+      Ch15TraitOfApplicative2
+      Ch16TraitOfMonad
+      Ch16TraitOfMonad2
+      Ch17Partiality
+      Ch18Nondeterminism
+      Ch19SideEffect
+      Ch20InputOutput
+      Ch21StatefulDesign
+      Ch22StatefulApp
+      Lib
+  other-modules:
+      Paths_haskell_bootcamp
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , transformers
+  default-language: Haskell2010
+
+executable haskell-bootcamp-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_bootcamp
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , haskell-bootcamp
+    , transformers
+  default-language: Haskell2010
+
+test-suite haskell-bootcamp-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_haskell_bootcamp
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , haskell-bootcamp
+    , transformers
+  default-language: Haskell2010

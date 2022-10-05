@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dist
 dist-*
 cabal-dev
@@ -21,3 +22,7 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+=======
+.stack-work/
+*~
+>>>>>>> 5983854 (lecture chapters)

@@ -1,4 +1,4 @@
-module Ch21StatefulDesign where
+module Ch17DesignPattern where
 
 import Control.Monad.Trans.State
 import Control.Monad.IO.Class

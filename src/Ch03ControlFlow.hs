@@ -1,6 +1,8 @@
 
 module Ch03ControlFlow where
 
+here :: IO ()
+here = putStrLn "Chapter 3. Controlflow"
 
 
 data Person = Person { age :: Int, name :: String }

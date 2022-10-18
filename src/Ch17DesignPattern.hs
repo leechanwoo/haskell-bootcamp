@@ -3,6 +3,9 @@ module Ch17DesignPattern where
 import Control.Monad.Trans.State
 import Control.Monad.IO.Class
 
+here :: IO ()
+here = putStrLn "Chapter 17. Design Pattern"
+
 
 data Action a = Action1 | Action2 | Action3
   deriving Show

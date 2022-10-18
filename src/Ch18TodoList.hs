@@ -4,6 +4,8 @@ module Ch18TodoList  where
 import Control.Monad.Trans.State
 import Control.Monad.IO.Class
 
+here :: IO ()
+here = putStrLn "Chapter 18. Todo List"
 
 
 data Action = Action

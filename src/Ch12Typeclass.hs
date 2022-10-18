@@ -1,6 +1,9 @@
 
 module Ch12Typeclass where
 
+here :: IO ()
+here = putStrLn "Chapter 12. Typeclass"
+
 data Week = Mon | Tue | Wed | Thu | Fri | Sat | Sun
   deriving (Eq, Ord, Enum, Bounded, Show)
 

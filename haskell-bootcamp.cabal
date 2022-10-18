@@ -80,6 +80,8 @@ test-suite haskell-bootcamp-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Ch12TypeclassTest
+      MonadTransformer
       Paths_haskell_bootcamp
   hs-source-dirs:
       test

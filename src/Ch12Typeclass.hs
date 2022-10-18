@@ -26,6 +26,3 @@ instance Equal CharType where
   D === D = True
   _ === _ = False
 
-
-data Week = Mon | Tue | Wed | Thu | Fri | Sat | Sun
-  deriving Show

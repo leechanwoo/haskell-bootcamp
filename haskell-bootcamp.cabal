@@ -29,7 +29,7 @@ library
       Ch02FunctionBasic
       Ch03ControlFlow
       Ch04LocalScope
-      Ch05LambdaCalculus
+      Ch05LambdaFunction
       Ch06RecursiveFunction
       Ch07Polymorphism
       Ch08HigherOrderFunction
@@ -73,8 +73,6 @@ test-suite haskell-bootcamp-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Ch12TypeclassTest
-      MonadTransformer
       Paths_haskell_bootcamp
   hs-source-dirs:
       test

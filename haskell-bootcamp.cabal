@@ -37,19 +37,12 @@ library
       Ch10TypePolymorphism
       Ch11ConstraintAdvanced
       Ch12Typeclass
-      Ch13Kind
-      Ch14TraitOfFunctor
-      Ch14TraitOfFunctor2
-      Ch15TraitOfApplicative
-      Ch15TraitOfApplicative2
-      Ch16TraitOfMonad
-      Ch16TraitOfMonad2
-      Ch17Partiality
-      Ch18Nondeterminism
-      Ch19SideEffect
-      Ch20InputOutput
-      Ch21StatefulDesign
-      Ch22StatefulApp
+      Ch13TruePolymorphism
+      Ch14Kind
+      Ch15FunctorAndMonad
+      Ch16MonadTransformer
+      Ch17DesignPattern
+      Ch18TodoList
       Lib
   other-modules:
       Paths_haskell_bootcamp

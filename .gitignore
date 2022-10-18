@@ -25,4 +25,4 @@ cabal.project.local~
 *~
 Setup.hs
 *.lock
-test/
+test/*

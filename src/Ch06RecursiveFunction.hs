@@ -1,6 +1,10 @@
 
 module Ch06RecursiveFunction where
 
+here :: IO ()
+here = putStrLn "Chapter 6. Recursive Function"
+
+
 data Person = Person { age :: Int, name :: String }
   deriving Show
 

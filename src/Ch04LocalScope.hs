@@ -1,6 +1,10 @@
 
 module Ch04LocalScope where
 
+here :: IO ()
+here = putStrLn "Chapter 4. Local Scope"
+
+
 data Person = Person { age :: Int, name :: String }
   deriving Show
 
